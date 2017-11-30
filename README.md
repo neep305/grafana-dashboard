@@ -1,5 +1,12 @@
 # grafana-dashboard
 
+### docker 설치
+> 설치파일 경로
+https://download.docker.com/win/stable/DockerToolbox.exe
+
+> 설치 Guide
+http://pseg.or.kr/pseg/infoinstall/6076
+
 ### influxdb 설치
 https://portal.influxdata.com/downloads#influxdb
 ``` bash
