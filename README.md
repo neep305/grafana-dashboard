@@ -7,6 +7,12 @@ https://download.docker.com/win/stable/DockerToolbox.exe
 > 설치 Guide
 http://pseg.or.kr/pseg/infoinstall/6076
 
+> oracle 연결
+https://github.com/bdrouvot/oracledb-telegraf
+
+> 참고자료
+http://blog.naver.com/alice_k106/220360418725
+
 ### influxdb 설치
 https://portal.influxdata.com/downloads#influxdb
 ``` bash
