@@ -13,6 +13,12 @@ https://github.com/bdrouvot/oracledb-telegraf
 - 참고자료<br>
 http://blog.naver.com/alice_k106/220360418725
 
+#### 도커 실행 (윈도우 기준)
+- 이미지 조회    
+``` bash
+$ docker search ubuntu
+```
+
 ### influxdb 설치
 https://portal.influxdata.com/downloads#influxdb
 ``` bash
