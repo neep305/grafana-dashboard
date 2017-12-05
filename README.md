@@ -12,8 +12,8 @@ docker pull tutum/influxdb
 ```
 
 - Installing latest version 
-> 최신 버전은 GUI 버전을 사용할 없음
-https://portal.influxdata.com/downloads#influxdb
+> 최신 버전은 GUI 버전을 사용할 수 없음
+> official download url --> https://portal.influxdata.com/downloads#influxdb
 ``` bash
 $ wget https://dl.influxdata.com/influxdb/releases/influxdb_1.4.2_amd64.deb
 $ sudo dpkg -i influxdb_1.4.2_amd64.deb
@@ -33,10 +33,10 @@ http://pseg.or.kr/pseg/infoinstall/6076
 https://github.com/bdrouvot/oracledb-telegraf
 
 - 기타<br>
-http://blog.naver.com/alice_k106/220360418725 <br>
-https://coderwall.com/p/fg18jq/getting-started-influxdb-grafana-docker
+자주 쓰는 도커 명령어 (http://blog.naver.com/alice_k106/220360418725) <br>
+Getting Started (InfluxDB - Grafana - Docker) (https://coderwall.com/p/fg18jq/getting-started-influxdb-grafana-docker)
 
-#### How to use docker command (윈도우 기준)
+### How to use docker command (윈도우 기준)
 - 이미지 조회    
 ``` bash
 $ docker search ubuntu
@@ -51,3 +51,5 @@ $ docker cp /path/foo.txt mycontainer:/path/foo.txt
 ```
 $ docker cp mycontainer:/path/foo.txt /path/foo.txt
 ```
+
+###
