@@ -1,16 +1,17 @@
 # grafana-dashboard
 
 ### docker 설치
-- 설치파일 경로 <br>
+- 설치파일 경로 (필수) <br>
 https://download.docker.com/win/stable/DockerToolbox.exe
 
+### 참고 자료
 - 설치 Guide <br>
 http://pseg.or.kr/pseg/infoinstall/6076
 
 - oracle 연결 <br>
 https://github.com/bdrouvot/oracledb-telegraf
 
-- 참고자료<br>
+- 기타<br>
 http://blog.naver.com/alice_k106/220360418725 <br>
 https://coderwall.com/p/fg18jq/getting-started-influxdb-grafana-docker
 
@@ -46,7 +47,7 @@ $ sudo dpkg -i influxdb_1.4.2_amd64.deb
 ```
 
 ### Install Grafana on a docker container
-- Pull Image
+- Pull Docker Image
 ```bash
 $ docker pull grafana/grafana
 ```
