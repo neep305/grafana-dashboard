@@ -11,9 +11,10 @@ http://pseg.or.kr/pseg/infoinstall/6076
 https://github.com/bdrouvot/oracledb-telegraf
 
 - 참고자료<br>
-http://blog.naver.com/alice_k106/220360418725
+http://blog.naver.com/alice_k106/220360418725 <br>
+https://coderwall.com/p/fg18jq/getting-started-influxdb-grafana-docker
 
-#### 도커 실행 (윈도우 기준)
+#### How to use docker command (윈도우 기준)
 - 이미지 조회    
 ``` bash
 $ docker search ubuntu
@@ -29,9 +30,23 @@ $ docker cp /path/foo.txt mycontainer:/path/foo.txt
 $ docker cp mycontainer:/path/foo.txt /path/foo.txt
 ```
 
-### influxdb 설치
+### influxdb 설치 (https://swalloow.github.io/influx-grafana1)
+- 도커에 Download & install
+> docker powershell 실행하기
+```
+docker pull tutum/influxdb
+```
+
+- Installing latest version 
+> 최신 버전은 GUI 버전을 사용할 없음
 https://portal.influxdata.com/downloads#influxdb
 ``` bash
 $ wget https://dl.influxdata.com/influxdb/releases/influxdb_1.4.2_amd64.deb
 $ sudo dpkg -i influxdb_1.4.2_amd64.deb
+```
+
+### Install Grafana on a docker container
+- Pull Image
+```bash
+$ docker pull grafana/grafana
 ```
