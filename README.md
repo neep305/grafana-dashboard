@@ -19,6 +19,16 @@ http://blog.naver.com/alice_k106/220360418725
 $ docker search ubuntu
 ```
 
+- 파일 복사하기
+1. 호스트에서 컨테이너로 파일 전송하는 방법
+```
+$ docker cp /path/foo.txt mycontainer:/path/foo.txt
+```
+2. 컨테이너에서 호스트로 파일 전송하는 방법 
+```
+$ docker cp mycontainer:/path/foo.txt /path/foo.txt
+```
+
 ### influxdb 설치
 https://portal.influxdata.com/downloads#influxdb
 ``` bash
