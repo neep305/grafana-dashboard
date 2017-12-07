@@ -52,4 +52,7 @@ $ docker cp /path/foo.txt mycontainer:/path/foo.txt
 $ docker cp mycontainer:/path/foo.txt /path/foo.txt
 ```
 
-###
+### Excuting influx
+```
+$ influx
+```
